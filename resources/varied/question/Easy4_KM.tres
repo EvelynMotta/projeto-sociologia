@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://c8oo37xvyjrr2"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_ctdyf"]
+
+[resource]
+script = ExtResource("1_ctdyf")
+question_info = "Qual área Marx ajudou a desenvolver? "
+options = Array[String](["Biologia", "Sociologia", "Física", "Medicina"])
+correct = "Sociologia"
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

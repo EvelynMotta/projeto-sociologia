@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://5wj1desmp47k"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_cj0s2"]
+
+[resource]
+script = ExtResource("1_cj0s2")
+question_info = "Marx criticava:"
+options = Array[String](["A ciência ", "O capitalismo", "A educação", "A natureza"])
+correct = "O capitalismo"
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

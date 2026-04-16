@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://bqsc1etdpwnfy"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_x0ap5"]
+
+[resource]
+script = ExtResource("1_x0ap5")
+question_info = "Quem foi Karl Marx?"
+options = Array[String](["Um filósofo grego ", "Um sociólogo e economista alemão", "Um psicólogo inglês", "Um cientista francês"])
+correct = "Um sociólogo e economista alemão"
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

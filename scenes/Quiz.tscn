@@ -1,0 +1,141 @@
+[gd_scene load_steps=4 format=3 uid="uid://dvgkys5gspoim"]
+
+[ext_resource type="Script" uid="uid://dpxm3hoebgqi2" path="res://scripts/controllers/game_controller.gd" id="1_lkoqw"]
+[ext_resource type="Resource" uid="uid://b4s8jgqaucumk" path="res://resources/varied/themes/theme_Durkheim.tres" id="2_io4kd"]
+[ext_resource type="PackedScene" uid="uid://pxu4vuurq1hc" path="res://scenes/pause_menu.tscn" id="3_io4kd"]
+
+[node name="Main" type="CanvasLayer"]
+script = ExtResource("1_lkoqw")
+quiz = ExtResource("2_io4kd")
+color_right = Color(0.36425805, 0.7008831, 0.40092248, 1)
+color_wrong = Color(0.95548314, 0.5262433, 0.38438398, 1)
+
+[node name="Content" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="QuestionInfo" type="VBoxContainer" parent="Content"]
+layout_mode = 0
+offset_left = 90.0
+offset_top = 54.0
+offset_right = 1065.0
+offset_bottom = 277.0
+pivot_offset = Vector2(1086, 314)
+
+[node name="QuestionText" type="Label" parent="Content/QuestionInfo"]
+custom_minimum_size = Vector2(0, 70)
+layout_mode = 2
+size_flags_vertical = 6
+theme_override_font_sizes/font_size = 40
+text = "Pergunta"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="QuestionHolder" type="VBoxContainer" parent="Content"]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -442.0
+offset_top = -347.0
+offset_right = 453.0
+offset_bottom = -35.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_constants/separation = 10
+
+[node name="ButtonOption1" type="Button" parent="Content/QuestionHolder"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 20
+
+[node name="ButtonOption2" type="Button" parent="Content/QuestionHolder"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 20
+
+[node name="ButtonOption3" type="Button" parent="Content/QuestionHolder"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 20
+
+[node name="ButtonOption4" type="Button" parent="Content/QuestionHolder"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 20
+
+[node name="GameOver" type="ColorRect" parent="Content"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 3.0
+offset_top = 5.0
+offset_right = 3.0
+offset_bottom = 5.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.3519, 0.36, 0.3276, 1)
+
+[node name="Title" type="Label" parent="Content/GameOver"]
+layout_mode = 0
+offset_left = 428.0
+offset_top = 111.0
+offset_right = 719.0
+offset_bottom = 217.0
+theme_override_font_sizes/font_size = 40
+text = "Você Acertou: "
+
+[node name="Score" type="Label" parent="Content/GameOver"]
+layout_mode = 0
+offset_left = 332.0
+offset_top = 173.0
+offset_right = 808.0
+offset_bottom = 279.0
+theme_override_font_sizes/font_size = 50
+text = "0/0"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ButtonRestart" type="Button" parent="Content/GameOver"]
+layout_mode = 0
+offset_left = 359.0
+offset_top = 287.0
+offset_right = 797.0
+offset_bottom = 389.0
+theme_override_font_sizes/font_size = 30
+text = "Jogar Novamente"
+
+[node name="ButtonmMNP" type="Button" parent="Content/GameOver"]
+layout_mode = 0
+offset_left = 360.0
+offset_top = 402.0
+offset_right = 799.0
+offset_bottom = 507.0
+theme_override_font_sizes/font_size = 30
+text = "Menu Principal"
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="PauseMenu" parent="CanvasLayer" instance=ExtResource("3_io4kd")]
+visible = false
+
+[node name="ButtonPause" type="Button" parent="CanvasLayer"]
+offset_left = 967.0
+offset_top = 23.0
+offset_right = 1106.0
+offset_bottom = 86.0
+theme_override_font_sizes/font_size = 30
+text = "pause "
+
+[connection signal="pressed" from="Content/GameOver/ButtonRestart" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="Content/GameOver/ButtonmMNP" to="." method="_on_buttonm_mnp_pressed"]
+[connection signal="pressed" from="CanvasLayer/ButtonPause" to="CanvasLayer/PauseMenu" method="_on_button_pause_pressed"]

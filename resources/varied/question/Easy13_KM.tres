@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://blge4jy4hbrku"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_2joe6"]
+
+[resource]
+script = ExtResource("1_2joe6")
+question_info = "A burguesia é: "
+options = Array[String](["Classe trabalhadora", "Classe pobre", "Classe dominante", "Classe religiosa"])
+correct = "Classe dominante"
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://c3g4utun22xlr"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_vhrno"]
+
+[resource]
+script = ExtResource("1_vhrno")
+question_info = "Para Marx, o capitalismo é: "
+options = Array[String](["Perfeito", " Natural ", "Um sistema econômico baseado na exploração ", " Irrelevante"])
+correct = "Um sistema econômico baseado na exploração "
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

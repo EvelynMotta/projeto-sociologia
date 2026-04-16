@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="QuizTheme" load_steps=3 format=3 uid="uid://b4s8jgqaucumk"]
+
+[ext_resource type="Script" uid="uid://dp7dx1wo4xmqy" path="res://scripts/resources/theme.gd" id="1_mpy0t"]
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="2_uwmir"]
+
+[resource]
+script = ExtResource("1_mpy0t")
+name = "Durkheim"
+metadata/_custom_type_script = "uid://dp7dx1wo4xmqy"

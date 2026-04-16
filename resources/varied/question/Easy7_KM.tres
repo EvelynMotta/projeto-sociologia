@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://cg1q18bx8jdvm"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_gkl7b"]
+
+[resource]
+script = ExtResource("1_gkl7b")
+question_info = "O conceito central de Marx é:"
+options = Array[String](["Ação social ", "Fato social ", "Luta de classes ", "Consciência coletiva "])
+correct = "Luta de classes "
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

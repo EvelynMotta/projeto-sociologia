@@ -1,0 +1,62 @@
+[gd_scene load_steps=2 format=3 uid="uid://do0hqtua4xfr7"]
+
+[ext_resource type="Script" uid="uid://d3u3f82720w8p" path="res://scripts/controllers/level_menu.gd" id="1_loakq"]
+
+[node name="LevelMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_loakq")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ButtonEasy" type="Button" parent="."]
+layout_mode = 0
+offset_left = 391.0
+offset_top = 131.0
+offset_right = 752.0
+offset_bottom = 237.0
+theme_override_font_sizes/font_size = 30
+text = "Fácil"
+
+[node name="ButtonMedium" type="Button" parent="."]
+layout_mode = 0
+offset_left = 391.0
+offset_top = 257.0
+offset_right = 754.0
+offset_bottom = 365.0
+theme_override_font_sizes/font_size = 30
+text = "Médio"
+
+[node name="ButtonHard" type="Button" parent="."]
+layout_mode = 0
+offset_left = 395.0
+offset_top = 386.0
+offset_right = 759.0
+offset_bottom = 491.0
+theme_override_font_sizes/font_size = 30
+text = "Difícil"
+
+[node name="ButtonBack" type="Button" parent="."]
+layout_mode = 0
+offset_left = 30.0
+offset_top = 33.0
+offset_right = 140.0
+offset_bottom = 86.0
+theme_override_font_sizes/font_size = 30
+text = "Voltar
+"
+
+[connection signal="pressed" from="ButtonEasy" to="." method="_on_button_easy_pressed"]
+[connection signal="pressed" from="ButtonMedium" to="." method="_on_button_medium_pressed"]
+[connection signal="pressed" from="ButtonHard" to="." method="_on_button_hard_pressed"]
+[connection signal="pressed" from="ButtonBack" to="." method="_on_button_back_pressed"]

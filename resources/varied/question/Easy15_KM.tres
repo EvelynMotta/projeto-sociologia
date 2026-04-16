@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://exgq7ugmudg2"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_adand"]
+
+[resource]
+script = ExtResource("1_adand")
+question_info = "A sociologia de Marx destaca:"
+options = Array[String](["Harmonia social", "Conflito social", "Natureza ", "Emoção"])
+correct = "Conflito social"
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"
