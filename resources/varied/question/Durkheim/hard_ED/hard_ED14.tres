@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://d3jbm4e2kuvyi"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_51l3t"]
+
+[resource]
+script = ExtResource("1_51l3t")
+question_info = "A maior contribuição de Durkheim para a história do pensamento científico foi:"
+options = Array[String](["A formulação das leis de mercado da oferta e demanda", "O estabelecimento rigoroso da sociologia empírica, com objeto e método próprios", "A criação de tecnologias para o mapeamento genético", "O desenvolvimento das primeiras vacinas sociais"])
+correct = "O estabelecimento rigoroso da sociologia empírica, com objeto e método próprios"
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://cpepbne5s6f1t"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_jafg5"]
+
+[resource]
+script = ExtResource("1_jafg5")
+question_info = "O conceito de “Tipo Ideal” em Weber é utilizado como:"
+options = Array[String](["Um modelo perfeito de sociedade que devemos alcançar", "Um recurso metodológico para analisar fenômenos sociais", "Uma descrição exata de como a realidade funciona", "Uma lei universal e imutável"])
+correct = "Um recurso metodológico para analisar fenômenos sociais"
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

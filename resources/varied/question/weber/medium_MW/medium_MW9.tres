@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://cewpa5gqdhqa0"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_rdo7s"]
+
+[resource]
+script = ExtResource("1_rdo7s")
+question_info = "O chamado “espírito do capitalismo”, para Weber, envolve a valorização da:"
+options = Array[String](["Ostentação e do gasto excessivo", "Disciplina, do trabalho e da vida metódica", "Preguiça como forma de resistência", "Sorte e do acaso nos negócios"])
+correct = "Disciplina, do trabalho e da vida metódica"
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

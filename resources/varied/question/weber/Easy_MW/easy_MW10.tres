@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://8hxoje7laah"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_03fe4"]
+
+[resource]
+script = ExtResource("1_03fe4")
+question_info = " Uma obra famosa de Weber é: "
+options = Array[String](["O Capital", "O Suicídio", " A Ética Protestante e o Espírito do Capitalismo", "A República "])
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

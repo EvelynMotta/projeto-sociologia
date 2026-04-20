@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://cgsq3ih2ejbxl"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_306kf"]
+
+[resource]
+script = ExtResource("1_306kf")
+question_info = "Para que um comportamento seja classificado rigorosamente como \"Ação Social\", ele precisa:"
+options = Array[String](["Resultar em uma mudança institucional na política", "Estar dotado de um sentido subjetivo e orientar-se pelo comportamento de outros", "Ser aprovado pela moralidade do grupo", "Ocorrer em um espaço público e com grande número de pessoas"])
+correct = "Estar dotado de um sentido subjetivo e orientar-se pelo comportamento de outros"
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

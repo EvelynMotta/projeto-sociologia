@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://h4saq7xns34r"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_uoudf"]
+
+[resource]
+script = ExtResource("1_uoudf")
+question_info = "Em \"A Ética Protestante\", Weber argumenta que correntes como o calvinismo forneceram uma ética que:"
+options = Array[String](["Condenava o acúmulo de riquezas e exaltava a pobreza monástica", "Favoreceu a disciplina, a poupança e o trabalho metódico, impulsionando o \"espírito\" do capitalismo", "Retardou o desenvolvimento da indústria devido ao excesso de feriados religiosos", "Focava exclusivamente na contemplação teórica da natureza"])
+correct = "Favoreceu a disciplina, a poupança e o trabalho metódico, impulsionando o \"espírito\" do capitalismo"
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://pak3hnojfxx5"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_v8n00"]
+
+[resource]
+script = ExtResource("1_v8n00")
+question_info = "O princípio metodológico de Durkheim de “tratar os fatos sociais como coisas” significa que o sociólogo deve:"
+options = Array[String](["Ignorar a importância dos seres humanos na pesquisa", "Estudar os fenômenos sociais com a mesma objetividade das ciências naturais, afastando preconceitos", "Transformar conceitos abstratos em objetos físicos de laboratório", "Evitar qualquer estudo focado na economia"])
+correct = "Estudar os fenômenos sociais com a mesma objetividade das ciências naturais, afastando preconceitos"
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

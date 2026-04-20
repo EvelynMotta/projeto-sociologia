@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://bym5srbmhds7s"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_xb5xb"]
+
+[resource]
+script = ExtResource("1_xb5xb")
+question_info = "Para Weber, o processo de \"racionalização\" da sociedade ocidental moderna resulta em:"
+options = Array[String](["Um retorno a valores místicos e emocionais", "Uma organização progressivamente mais calculista, técnica e eficiente da vida social", "Um estado de anomia e caos total", "Uma valorização extrema das tradições ancestrais"])
+correct = "Uma organização progressivamente mais calculista, técnica e eficiente da vida social"
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

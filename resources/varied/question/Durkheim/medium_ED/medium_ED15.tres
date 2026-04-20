@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://bglm8r0g3g426"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_dwh5t"]
+
+[resource]
+script = ExtResource("1_dwh5t")
+question_info = "O \"suicídio anômico\" ocorre predominantemente quando:"
+options = Array[String](["O indivíduo sente que há um excesso opressivo de regras", "Há desorganização social e falta de limites/regras claras regulando a vida", "O grupo exige que o indivíduo sacrifique sua vida por uma causa", "As tradições religiosas são seguidas à risca"])
+correct = "Há desorganização social e falta de limites/regras claras regulando a vida"
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

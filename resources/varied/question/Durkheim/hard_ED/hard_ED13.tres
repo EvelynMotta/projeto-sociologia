@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://x0e46x3s7olx"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_7dsqu"]
+
+[resource]
+script = ExtResource("1_7dsqu")
+question_info = "Em relação ao volume da \"consciência coletiva\", nas sociedades modernas regidas pela solidariedade orgânica, ela tende a:"
+options = Array[String](["Aumentar, dominando totalmente a mente das pessoas", "Diminuir em volume e intensidade, permitindo maior margem para a individualidade", "Desaparecer totalmente, não restando nenhum valor em comum", "Desaparecer totalmente, não restando nenhum valor em comum"])
+correct = "Diminuir em volume e intensidade, permitindo maior margem para a individualidade"
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

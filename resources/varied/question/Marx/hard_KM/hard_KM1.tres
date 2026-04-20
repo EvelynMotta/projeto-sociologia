@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://e8abuphshgog"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_0qqkx"]
+
+[resource]
+script = ExtResource("1_0qqkx")
+question_info = "O \"Materialismo Histórico\" é a base da teoria marxista e defende que:"
+options = Array[String](["A história humana é determinada por forças espirituais e religiosas.", "A estrutura econômica da sociedade explica a evolução das instituições e ideias.", "As condições geográficas são as únicas responsáveis pelas mudanças sociais.", "O acaso e a vontade dos grandes líderes moldam o destino das nações."])
+correct = "A estrutura econômica da sociedade explica a evolução das instituições e ideias."
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

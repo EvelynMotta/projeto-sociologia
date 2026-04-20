@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://bqegj1h5sra34"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_6nj84"]
+
+[resource]
+script = ExtResource("1_6nj84")
+question_info = "O Fato Social se diferencia de um hábito pessoal porque ele"
+options = Array[String](["Depende exclusivamente da vontade individual", "É imposto pela sociedade e existe fora das consciências individuais", "É imposto pela sociedade e existe fora das consciências individuais", "É determinado pela biologia humana"])
+correct = "É imposto pela sociedade e existe fora das consciências individuais"
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

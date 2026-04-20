@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://l505ihceuclh"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_xm7f4"]
+
+[resource]
+script = ExtResource("1_xm7f4")
+question_info = "Durkheim alertou que o rápido avanço da modernidade carrega o risco contínuo de gerar:"
+options = Array[String](["Uma ordem absoluta e incontestável", "Estados de anomia, devido à desintegração rápida das tradições antigas", "Um retorno às práticas da solidariedade mecânica", "O fortalecimento das monarquias absolutistas"])
+correct = "Estados de anomia, devido à desintegração rápida das tradições antigas"
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

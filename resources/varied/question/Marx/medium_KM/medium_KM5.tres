@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://cv1dvoftb3a2c"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_w8pwa"]
+
+[resource]
+script = ExtResource("1_w8pwa")
+question_info = " O capitalismo se baseia em: "
+options = Array[String]([" Igualdade", "Exploração do trabalho ", " Natureza", "Tradição"])
+correct = "Exploração do trabalho "
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

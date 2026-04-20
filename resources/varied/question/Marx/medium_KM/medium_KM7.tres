@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://dp7d36rykn5io"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_bqc0j"]
+
+[resource]
+script = ExtResource("1_bqc0j")
+question_info = "Consciência de classe é: "
+options = Array[String]([" Ignorância ", "Entendimento da posição social ", "Emoção", "Tradição"])
+correct = "Entendimento da posição social "
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

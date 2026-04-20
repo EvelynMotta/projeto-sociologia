@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://cvonxbq8bon5e"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_5so8d"]
+
+[resource]
+script = ExtResource("1_5so8d")
+question_info = " Uma característica do fato social é:"
+options = Array[String](["Liberdade total ", "Coerção", "Aleatoriedade", "Emoção"])
+correct = "Coerção"
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

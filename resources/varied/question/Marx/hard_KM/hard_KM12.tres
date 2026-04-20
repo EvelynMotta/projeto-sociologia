@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://dgjold326inu1"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_vxiiv"]
+
+[resource]
+script = ExtResource("1_vxiiv")
+question_info = "O conceito de \"consciência de classe\" é fundamental porque:"
+options = Array[String](["Garante que o trabalhador aceite sua posição social sem questionamentos.", "É o requisito para que o proletariado se organize politicamente para a revolução.", "Permite que os indivíduos comprem ações das empresas onde trabalham.", "Facilita a harmonia entre os interesses da burguesia e dos operários."])
+correct = "É o requisito para que o proletariado se organize politicamente para a revolução."
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://burinly7oxrtl"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_m0cft"]
+
+[resource]
+script = ExtResource("1_m0cft")
+question_info = "Weber ficou conhecido por estudar: "
+options = Array[String](["Relações econômicas familiares no cotidiano", "O comportamento dos animais na sociedade", "O sentido das ações sociais dos indivíduos", "Fenômenos naturais e climáticos"])
+correct = "O sentido das ações sociais dos indivíduos"
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

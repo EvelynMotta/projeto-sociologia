@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://bgwfqutwpjwlp"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_nrc55"]
+
+[resource]
+script = ExtResource("1_nrc55")
+question_info = "Durkheim escolheu o suicídio como objeto de estudo com o objetivo principal de:"
+options = Array[String](["Entender as origens da depressão psicológica", "Mostrar que até o ato mais individual possui causas sociais", "Criticar os diagnósticos da medicina da época", "Provar que a biologia determina o fim da vida"])
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

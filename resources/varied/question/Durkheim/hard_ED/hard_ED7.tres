@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://xliywie2pl6e"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_jwihx"]
+
+[resource]
+script = ExtResource("1_jwihx")
+question_info = "O \"suicídio altruísta\" acontece quando:"
+options = Array[String](["O indivíduo possui um individualismo exacerbado", "O indivíduo está tão extremamente integrado ao grupo que sacrifica a própria vida pela coletividade", "Há uma quebra repentina das normas financeiras", "A pessoa busca liberdade contra um governo tirano"])
+correct = "O indivíduo está tão extremamente integrado ao grupo que sacrifica a própria vida pela coletividade"
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

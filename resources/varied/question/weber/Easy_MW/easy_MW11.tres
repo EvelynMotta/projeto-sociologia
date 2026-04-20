@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://bg240k6ah3376"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_1le48"]
+
+[resource]
+script = ExtResource("1_1le48")
+question_info = "Weber estudou a relação entre: "
+options = Array[String](["Cultura e educação formal", "Religião e desenvolvimento econômico", "tecnologia e Política", "Física e economia"])
+correct = "Religião e desenvolvimento econômico"
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

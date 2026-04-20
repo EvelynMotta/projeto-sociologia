@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://dmhw62nhnxrsk"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_41xy3"]
+
+[resource]
+script = ExtResource("1_41xy3")
+question_info = "Weber define \"Poder\" como a probabilidade de:"
+options = Array[String](["Usar força física para destruir o oponente", "Impor a própria vontade dentro de uma relação social, mesmo contra resistência", "Ser amado por todos os cidadãos", "Ter muitos recursos financeiros"])
+correct = "Impor a própria vontade dentro de uma relação social, mesmo contra resistência"
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

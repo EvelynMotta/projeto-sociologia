@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://c71cima3dx8el"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_sh10i"]
+
+[resource]
+script = ExtResource("1_sh10i")
+question_info = "O aumento exponencial da divisão do trabalho nas sociedades capitalistas promove:"
+options = Array[String](["A igualdade total de classes", "A interdependência funcional e a solidariedade orgânica", "O isolamento completo das comunidades", "Um individualismo extremo livre de qualquer amarra social"])
+correct = "A interdependência funcional e a solidariedade orgânica"
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

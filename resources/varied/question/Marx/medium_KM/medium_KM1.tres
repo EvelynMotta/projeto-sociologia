@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://bm5mxk32stf5j"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_jtpjd"]
+
+[resource]
+script = ExtResource("1_jtpjd")
+question_info = " Luta de classes é: "
+options = Array[String](["Harmonia ", "Conflito entre grupos sociais ", " Emoção ", "Tradição "])
+correct = "Conflito entre grupos sociais "
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

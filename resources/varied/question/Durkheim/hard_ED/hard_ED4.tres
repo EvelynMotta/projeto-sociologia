@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://bc6ewmfi7jsqe"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_m04av"]
+
+[resource]
+script = ExtResource("1_m04av")
+question_info = "A transição histórica da solidariedade mecânica para a solidariedade orgânica foi impulsionada primariamente pela:"
+options = Array[String](["Simplificação das relações rurais", "Industrialização e pelo aumento do volume/densidade populacional", "Consolidação dos laços de parentesco tradicionais", "Unificação das crenças religiosas mundiais"])
+correct = "Industrialização e pelo aumento do volume/densidade populacional"
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

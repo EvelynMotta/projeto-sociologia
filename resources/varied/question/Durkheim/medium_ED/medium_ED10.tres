@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://x5v7li2erxqn"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_6nubl"]
+
+[resource]
+script = ExtResource("1_6nubl")
+question_info = " O suicídio pode ser explicado por:"
+options = Array[String](["Apenas traços de personalidade individual", "Predisposições genéticas da população", "Fatores sociais como o grau de coesão e regulação do grupo", "Pura aleatoriedade estatística"])
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://bviuln5hd0ivv"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_kohqp"]
+
+[resource]
+script = ExtResource("1_kohqp")
+question_info = "Em que país Durkheim nasceu e desenvolveu grande parte de seus estudos?"
+options = Array[String](["Alemanha", "Itália", "França", "Inglaterra"])
+correct = "França"
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

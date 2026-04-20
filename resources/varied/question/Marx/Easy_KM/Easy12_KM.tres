@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://bc3yg7lvuurqo"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_1faqm"]
+
+[resource]
+script = ExtResource("1_1faqm")
+question_info = "O proletariado é:"
+options = Array[String](["Classe rica ", "Classe trabalhadora", "Classe política ", "Classe religiosa "])
+correct = "Classe trabalhadora"
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

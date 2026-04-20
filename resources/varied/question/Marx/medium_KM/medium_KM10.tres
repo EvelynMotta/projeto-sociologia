@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://dwafvbahykgqs"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_yo562"]
+
+[resource]
+script = ExtResource("1_yo562")
+question_info = "Na teoria de Marx, a sociedade é composta por uma \"infraestrutura\"  e uma \"superestrutura\". Assinale a alternativa que apresenta elementos que compõem a Superestrutura:"
+options = Array[String](["As ferramentas, as máquinas e a tecnologia utilizadas na produção.", "O sistema de leis, as instituições políticas e as crenças ideológicas.", "A força de trabalho humana e as matérias-primas da indústria.", "As relações de propriedade e os meios de transporte de mercadorias."])
+correct = "O sistema de leis, as instituições políticas e as crenças ideológicas."
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

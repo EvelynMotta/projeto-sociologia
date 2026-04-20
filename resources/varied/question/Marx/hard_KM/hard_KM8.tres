@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://cudjxrtjye1oo"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_twtx2"]
+
+[resource]
+script = ExtResource("1_twtx2")
+question_info = "O estágio final proposto por Marx, o comunismo, pressupõe:"
+options = Array[String](["O fortalecimento do Estado para controlar todos os aspectos da vida privada.", "A manutenção das classes sociais desde que haja justiça salarial.", "A abolição da propriedade privada dos meios de produção e o fim das classes.", "A submissão da economia às regras exclusivas do mercado financeiro."])
+correct = "A abolição da propriedade privada dos meios de produção e o fim das classes."
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

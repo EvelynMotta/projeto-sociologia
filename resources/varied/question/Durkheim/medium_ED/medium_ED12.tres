@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://deawqwdax8kge"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_npckp"]
+
+[resource]
+script = ExtResource("1_npckp")
+question_info = " Consciência coletiva é mais forte em sociedades:"
+options = Array[String](["Modernas", "Complexas", "Tradicionais", "Industriais"])
+correct = "Tradicionais"
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

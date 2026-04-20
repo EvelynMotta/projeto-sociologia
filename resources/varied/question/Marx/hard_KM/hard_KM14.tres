@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://bcyoyr0dcotwa"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_kgoed"]
+
+[resource]
+script = ExtResource("1_kgoed")
+question_info = "\"a história de todas as sociedades até hoje é a história da luta de classes\", significa que:"
+options = Array[String](["O progresso histórico é fruto do antagonismo entre opressores e oprimidos.", "A paz social é o estado natural das civilizações humanas.", "A economia não tem influência sobre os eventos políticos mundiais.", "A história é um processo aleatório sem qualquer padrão identificável."])
+correct = "O progresso histórico é fruto do antagonismo entre opressores e oprimidos."
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

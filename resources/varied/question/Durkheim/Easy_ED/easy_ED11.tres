@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://byf5e47ga35d7"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_j1vko"]
+
+[resource]
+script = ExtResource("1_j1vko")
+question_info = "Diferente de outras áreas, Durkheim focava seus estudos priorizando:"
+options = Array[String](["As motivações psicológicas internas", "O comportamento de outras espécies", "Os fenômenos que ocorrem no âmbito coletivo/social", "A criação de novas tecnologias"])
+correct = "Os fenômenos que ocorrem no âmbito coletivo/social"
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

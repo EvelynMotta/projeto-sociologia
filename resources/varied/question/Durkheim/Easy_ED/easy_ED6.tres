@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://d015ncnssjwyo"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_0sa0s"]
+
+[resource]
+script = ExtResource("1_0sa0s")
+question_info = "O foco principal das análises sociológicas de Durkheim era:"
+options = Array[String](["O funcionamento biológico do corpo humano", "A mente e os traumas individuais", "As estruturas e o funcionamento da sociedade", "A relação do homem com o meio ambiente natural"])
+correct = "As estruturas e o funcionamento da sociedade"
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://bcff3f2hbdv50"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_mytr8"]
+
+[resource]
+script = ExtResource("1_mytr8")
+question_info = "A \"Solidariedade Mecânica\" é típica de sociedades:"
+options = Array[String](["Pós-modernas e hiperconectadas", "Altamente industriais e urbanas", "Tradicionais, pré-capitalistas ou tribais", "Focadas no avanço tecnológico"])
+correct = "Tradicionais, pré-capitalistas ou tribais"
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

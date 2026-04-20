@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://c0hudbhjwrmp3"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_6e53a"]
+
+[resource]
+script = ExtResource("1_6e53a")
+question_info = "Para Durkheim, a sociologia é a ciência que estuda:"
+options = Array[String](["As relações de troca financeira", "O desenvolvimento cognitivo infantil", "As instituições e os fatos sociais", "As leis da física aplicadas às cidades"])
+correct = "As instituições e os fatos sociais"
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

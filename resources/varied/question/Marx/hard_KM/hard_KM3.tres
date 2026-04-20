@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://c3q1hxj5fmewx"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_64iv7"]
+
+[resource]
+script = ExtResource("1_64iv7")
+question_info = "O conceito de \"alienação\" no trabalho manifesta-se quando:"
+options = Array[String](["O produtor perde o controle sobre o processo e o resultado final do seu trabalho.", "O trabalhador adquire plena consciência de sua importância no processo produtivo.", "O Estado intervém para garantir direitos trabalhistas e salários justos.", "A tecnologia substitui integralmente a necessidade de esforço humano."])
+correct = "O produtor perde o controle sobre o processo e o resultado final do seu trabalho."
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://cqg8hpgrwcr8o"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_5qset"]
+
+[resource]
+script = ExtResource("1_5qset")
+question_info = "O \"suicídio egoísta\" caracteriza-se por ocorrer devido a:"
+options = Array[String](["Um excesso de regulação moral por parte de líderes autoritários", "Uma falta crônica de integração do indivíduo aos grupos sociais (família, religião, política)", "Uma ausência total de leis econômicas no país", "Uma devoção fanática a um líder carismático"])
+correct = "Uma falta crônica de integração do indivíduo aos grupos sociais (família, religião, política)"
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

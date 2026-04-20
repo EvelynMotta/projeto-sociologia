@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://vxcprbdh57ix"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_x8hac"]
+
+[resource]
+script = ExtResource("1_x8hac")
+question_info = "Na teoria marxista, o comunismo representaria o estágio final da organização social. Entre suas características principais, destaca-se:"
+options = Array[String](["O fortalecimento da propriedade privada dos meios de produção", "A abolição das classes sociais e a superação da exploração do trabalho.", "A centralização definitiva do poder nas mãos de um Estado burocrático.", "A manutenção das desigualdades materiais como forma de incentivar o esforço individual."])
+correct = "A abolição das classes sociais e a superação da exploração do trabalho."
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

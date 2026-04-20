@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://dtu2n4cx6wqpg"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_8ey2y"]
+
+[resource]
+script = ExtResource("1_8ey2y")
+question_info = " Uma obra famosa de Durkheim é:"
+options = Array[String](["O Capital", "A Ética Protestante e o Espírito do Capitalismo", "O Suicídio", "O Leviatã"])
+correct = "O Suicídio"
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://cdr3s4opq3mwc"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_4rx6q"]
+
+[resource]
+script = ExtResource("1_4rx6q")
+question_info = "Uma obra famosa de Marx é: "
+options = Array[String](["O Suicídio", "O Capital ", "A República ", "Leviatã"])
+correct = "O Capital "
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

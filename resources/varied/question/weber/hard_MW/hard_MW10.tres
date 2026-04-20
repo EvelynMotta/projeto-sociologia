@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://bn8kv2roktpos"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_cavcn"]
+
+[resource]
+script = ExtResource("1_cavcn")
+question_info = "A grande inovação da análise de Weber sobre o surgimento do capitalismo foi demonstrar a influência fundamental de:"
+options = Array[String](["Fatores estritamente geográficos e climáticos europeus", "Valores culturais e ideias religiosas na formação da mentalidade econômica", "Instintos biológicos de competição entre os humanos", "Tecnologias herdadas do Império Romano"])
+correct = "Valores culturais e ideias religiosas na formação da mentalidade econômica"
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

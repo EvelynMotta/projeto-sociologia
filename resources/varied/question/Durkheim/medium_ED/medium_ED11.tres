@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://uak41hcdrr00"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_6okhv"]
+
+[resource]
+script = ExtResource("1_6okhv")
+question_info = "Nas sociedades modernas, a acentuada divisão do trabalho gera:"
+options = Array[String](["Um colapso total das relações humanas", "A união social através da interdependência mútua", "O isolamento absoluto de todas as profissões", "O fim de qualquer regra moral"])
+correct = "A união social através da interdependência mútua"
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

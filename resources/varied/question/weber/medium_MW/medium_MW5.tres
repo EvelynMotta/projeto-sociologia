@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://dyiseca5oluma"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_8r0x4"]
+
+[resource]
+script = ExtResource("1_8r0x4")
+question_info = "A ação afetiva é aquela ditada principalmente por:"
+options = Array[String](["Um plano de carreira", "Estados emocionais ou sentimentos atuais", "Normas jurídicas vigentes", "Costumes de longa data"])
+correct = "Estados emocionais ou sentimentos atuais"
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

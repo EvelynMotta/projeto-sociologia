@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://yqwm2kc1vmc2"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_u5sqj"]
+
+[resource]
+script = ExtResource("1_u5sqj")
+question_info = "A grande importância de Durkheim para as ciências humanas se deve ao fato de ele ter:"
+options = Array[String](["Criado o método da psicanálise", "Aplicado métodos científicos rigorosos ao estudo da sociedade", "Liderado movimentos operários na Europa", "Desenvolvido as teorias do liberalismo econômico"])
+correct = "Aplicado métodos científicos rigorosos ao estudo da sociedade"
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

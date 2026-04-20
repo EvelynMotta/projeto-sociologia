@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://hvpq2r1c6bi0"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_xwv6c"]
+
+[resource]
+script = ExtResource("1_xwv6c")
+question_info = "O suicídio pode ser compreendido como um \"fato social\" porque:"
+options = Array[String](["Suas taxas são biologicamente herdáveis", "Suas taxas variam de forma previsível conforme as estruturas sociais de integração e regulação", "É um evento que afeta a natureza ao redor do indivíduo", "É uma escolha totalmente aleatória"])
+correct = "Suas taxas variam de forma previsível conforme as estruturas sociais de integração e regulação"
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

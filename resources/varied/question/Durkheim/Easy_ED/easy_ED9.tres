@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://bmxrtjhl4aknc"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_yoxu4"]
+
+[resource]
+script = ExtResource("1_yoxu4")
+question_info = "Na relação entre o indivíduo e a sociedade, Durkheim acreditava que:"
+options = Array[String](["O indivíduo isolado molda o mundo ao seu redor", "A sociedade influencia e molda o indivíduo", "Não existe influência do meio sobre as escolhas pessoais", "O acaso determina as ações humanas"])
+correct = "A sociedade influencia e molda o indivíduo"
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

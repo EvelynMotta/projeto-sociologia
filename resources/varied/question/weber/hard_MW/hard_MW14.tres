@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://d2svvh0oi1jgu"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_17rlb"]
+
+[resource]
+script = ExtResource("1_17rlb")
+question_info = "O princípio da \"Neutralidade Axiológica\" (ou neutralidade de valor) defendido por Weber exige que o pesquisador:"
+options = Array[String](["Não participe de eleições ou movimentos sociais", "Separe rigorosamente seus juízos de fato (análise científica) de seus juízos de valor (opiniões políticas/morais)", "Utilize a ciência para criticar abertamente as decisões do Estado", "Ignore qualquer dado que não seja expressado em linguagem matemática"])
+correct = "Separe rigorosamente seus juízos de fato (análise científica) de seus juízos de valor (opiniões políticas/morais)"
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://b67fsnp0lbkws"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_tvwie"]
+
+[resource]
+script = ExtResource("1_tvwie")
+question_info = "Weber alertou que o avanço irreversível da burocracia racional poderia aprisionar o indivíduo em uma:"
+options = Array[String](["\"Gaiola de ferro\" de regras rígidas e impessoais", "\"Sociedade do espetáculo\" baseada na emoção", "\"Solidariedade mecânica\" opressiva", "\"Luta de todos contra todos\""])
+correct = "\"Gaiola de ferro\" de regras rígidas e impessoais"
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

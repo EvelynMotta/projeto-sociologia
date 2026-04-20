@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://3jfw58lap2bs"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_t3vlh"]
+
+[resource]
+script = ExtResource("1_t3vlh")
+question_info = "Para Weber, a sociedade é formada por: "
+options = Array[String](["economia", "Ações individuais com sentido", "Estruturas naturais", "Animais"])
+correct = "Ações individuais com sentido"
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

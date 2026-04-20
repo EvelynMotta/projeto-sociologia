@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://b8angl3nstlc4"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_thnka"]
+
+[resource]
+script = ExtResource("1_thnka")
+question_info = "Uma das consequências diretas do \"trabalho alienado\" é:"
+options = Array[String](["O desenvolvimento da criatividade e do potencial artístico do operário.", "A desumanização do trabalhador, que passa a se sentir um estranho no que produz.", "O aumento da liberdade individual fora do ambiente de fábrica.", "A superação definitiva da necessidade de vender a força de trabalho."])
+correct = "A desumanização do trabalhador, que passa a se sentir um estranho no que produz."
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

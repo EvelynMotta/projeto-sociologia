@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://bri51ldmhbw1c"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_glj44"]
+
+[resource]
+script = ExtResource("1_glj44")
+question_info = "Qual a função central da religião segundo as análises de Durkheim?"
+options = Array[String](["Explicar a formação do universo físico", "Servir como um sistema de símbolos que une a sociedade e fortalece a coesão social", "Promover a separação entre as classes ricas e pobres", "Ser um instrumento puramente inútil para a ordem pública"])
+correct = "Servir como um sistema de símbolos que une a sociedade e fortalece a coesão social"
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

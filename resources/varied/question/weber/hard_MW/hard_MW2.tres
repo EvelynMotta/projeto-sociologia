@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://byxvdyrgrgvj2"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_aso6t"]
+
+[resource]
+script = ExtResource("1_aso6t")
+question_info = "Qual a função metodológica do \"Tipo Ideal\" formulado por Weber?"
+options = Array[String](["Representar uma meta de perfeição moral que a sociedade deve buscar", "Servir como um modelo heurístico puro para comparar e analisar a complexidade da realidade", "Criar leis gerais que se aplicam a todas as épocas da humanidade", "Definir a melhor forma de governo para um país"])
+correct = "Servir como um modelo heurístico puro para comparar e analisar a complexidade da realidade"
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

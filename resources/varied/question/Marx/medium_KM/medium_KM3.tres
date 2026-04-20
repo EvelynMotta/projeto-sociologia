@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://crd0mhxkvju0y"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_b6ice"]
+
+[resource]
+script = ExtResource("1_b6ice")
+question_info = "Mais-valia é: "
+options = Array[String](["Salário justo ", "Lucro do trabalhador ", "Valor explorado do trabalhador ", "Imposto "])
+correct = "Valor explorado do trabalhador "
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

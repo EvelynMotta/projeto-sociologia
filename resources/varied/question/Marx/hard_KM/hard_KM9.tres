@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://c5bcj3g1c2ojy"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_86uui"]
+
+[resource]
+script = ExtResource("1_86uui")
+question_info = "Na relação entre a estrutura da sociedade, a \"infraestrutura\" exerce a função de:"
+options = Array[String](["Conjunto de leis e crenças que organizam a moral da sociedade.", "Base material e produtiva que condiciona a organização da superestrutura.", "Aparato político responsável por gerir as crises do Estado.", "Esfera puramente cultural e simbólica da vida humana."])
+correct = "Base material e produtiva que condiciona a organização da superestrutura."
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

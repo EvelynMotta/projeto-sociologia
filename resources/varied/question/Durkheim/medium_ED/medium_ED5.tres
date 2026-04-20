@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://dmmqsaw81isvv"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_52dol"]
+
+[resource]
+script = ExtResource("1_52dol")
+question_info = "A \"Solidariedade Orgânica\" ocorre com mais força em sociedades:"
+options = Array[String](["De caçadores e coletores", "Regidas estritamente pela religião", "Complexas e com alta divisão do trabalho", "Rurais e isoladas"])
+correct = "Complexas e com alta divisão do trabalho"
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

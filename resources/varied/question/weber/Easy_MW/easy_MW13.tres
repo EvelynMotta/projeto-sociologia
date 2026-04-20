@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://cokluwtqld6hr"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_50asl"]
+
+[resource]
+script = ExtResource("1_50asl")
+question_info = "A sociologia de Weber é chamada de: "
+options = Array[String](["Compreensiva", "Positivista", "Naturalista", "Funcionalista"])
+correct = "Compreensiva"
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

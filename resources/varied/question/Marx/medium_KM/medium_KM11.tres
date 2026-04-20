@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://bibvir7nff0hx"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_thnix"]
+
+[resource]
+script = ExtResource("1_thnix")
+question_info = " A relação entre infraestrutura e superestrutura é:"
+options = Array[String](["Independente", " A economia influencia ideias ", "Ideias influenciam economia", " Não existe "])
+correct = " A economia influencia ideias "
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

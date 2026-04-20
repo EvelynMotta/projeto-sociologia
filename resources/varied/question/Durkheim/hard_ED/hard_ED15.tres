@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://cldqb81n5vma5"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_kq3do"]
+
+[resource]
+script = ExtResource("1_kq3do")
+question_info = "Ao analisar o desenvolvimento das sociedades modernas, expressou preocupação crítica em relação a:"
+options = Array[String](["O fortalecimento da consciência coletiva tradicional", "O crescimento do individualismo egoísta e desintegrador", "A expansão benéfica da solidariedade orgânica funcional", "O aumento da regulação moral tradicional e religiosa"])
+correct = "O crescimento do individualismo egoísta e desintegrador"
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

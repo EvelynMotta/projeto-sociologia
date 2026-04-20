@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://dq71iellc6n6x"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_p340w"]
+
+[resource]
+script = ExtResource("1_p340w")
+question_info = "Em sua obra mais famosa, Weber relacionou o desenvolvimento do capitalismo ao:"
+options = Array[String](["Crescimento demográfico na Europa", "Ética e valores de certas correntes do Protestantismo", "Avanço das tecnologias biológicas", "Declínio total das religiões"])
+correct = "Ética e valores de certas correntes do Protestantismo"
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

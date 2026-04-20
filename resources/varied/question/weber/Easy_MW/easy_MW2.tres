@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://0s2cjhplekym"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_k4ywi"]
+
+[resource]
+script = ExtResource("1_k4ywi")
+question_info = "Em que país Weber nasceu? "
+options = Array[String](["França ", "Inglaterra ", "Alemanha ", "Itália"])
+correct = "Alemanha"
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

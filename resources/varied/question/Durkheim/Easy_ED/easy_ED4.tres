@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://c1e5h36c5ysxp"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_l452w"]
+
+[resource]
+script = ExtResource("1_l452w")
+question_info = "Qual área do conhecimento Durkheim ajudou a consolidar como uma disciplina acadêmica autônoma?"
+options = Array[String](["Psicologia", "Ciência Política", "Sociologia", "Antropologia Cultural"])
+correct = "Sociologia"
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

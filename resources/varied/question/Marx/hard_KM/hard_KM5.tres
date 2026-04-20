@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://bi4b1tk65cde7"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_vaslj"]
+
+[resource]
+script = ExtResource("1_vaslj")
+question_info = "Sobre o conceito de \"ideologia\", Marx afirma que a ideologia dominante em uma época é:"
+options = Array[String](["Um conjunto neutro de valores que visa o bem comum de todos.", "Uma construção que reflete e justifica os interesses da classe que detém o poder.", "O resultado da vontade democrática da maioria da população.", "Um sistema científico baseado em verdades universais e imutáveis."])
+correct = "Uma construção que reflete e justifica os interesses da classe que detém o poder."
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

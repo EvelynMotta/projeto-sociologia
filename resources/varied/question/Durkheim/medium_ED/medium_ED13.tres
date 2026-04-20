@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://bl37md1bsanpm"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_ud6tn"]
+
+[resource]
+script = ExtResource("1_ud6tn")
+question_info = "O papel fundamental da educação na sociedade é:"
+options = Array[String](["Garantir enriquecimento financeiro rápido", "Socializar os indivíduos, transmitindo normas e valores coletivos", "Apenas servir de entretenimento para os jovens", "Isolar as crianças da influência dos adultos"])
+correct = "Socializar os indivíduos, transmitindo normas e valores coletivos"
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

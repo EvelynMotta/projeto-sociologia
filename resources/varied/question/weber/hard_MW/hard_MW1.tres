@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://dfgn3xwx7hn06"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_ivky7"]
+
+[resource]
+script = ExtResource("1_ivky7")
+question_info = "O método sociológico de Weber diferencia-se das ciências naturais porque se baseia na:"
+options = Array[String](["Observação empírica de reações biológicas", "Compreensão interpretativa do sentido subjetivo das ações", "Medição estatística focada em eliminar a subjetividade", "Busca por leis físicas imutáveis da sociedade"])
+correct = "Compreensão interpretativa do sentido subjetivo das ações"
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

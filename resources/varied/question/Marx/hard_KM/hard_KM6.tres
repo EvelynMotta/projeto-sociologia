@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://dw8cd5nc1mmqw"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_kp66s"]
+
+[resource]
+script = ExtResource("1_kp66s")
+question_info = "Na análise marxista, o modo de produção capitalista gera estruturalmente:"
+options = Array[String](["A erradicação gradual da pobreza através do livre mercado.", "A concentração de riqueza em um polo e o aumento da desigualdade social.", "Uma sociedade de consumo onde todos têm as mesmas oportunidades.", "O equilíbrio permanente entre a oferta de produtos e a demanda social."])
+correct = "A concentração de riqueza em um polo e o aumento da desigualdade social."
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

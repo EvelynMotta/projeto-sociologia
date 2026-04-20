@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://bpihfs3nro3kt"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_cstix"]
+
+[resource]
+script = ExtResource("1_cstix")
+question_info = "Weber classifica a ação social em quantos tipos fundamentais?"
+options = Array[String](["2", "3", "4", "5"])
+correct = "4"
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

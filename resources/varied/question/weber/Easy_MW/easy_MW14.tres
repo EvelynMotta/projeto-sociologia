@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://b4ajiborcixmo"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_choro"]
+
+[resource]
+script = ExtResource("1_choro")
+question_info = "Weber analisava principalmente:"
+options = Array[String](["Dados quantitativos e estatísticos", "Normas e estruturas sociais", "Sentidos e motivações das ações humanas", "Relações econômicas de produção"])
+correct = "Sentidos e motivações das ações humanas"
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

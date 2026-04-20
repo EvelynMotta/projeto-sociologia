@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://40dh5krlohfy"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_q0vfa"]
+
+[resource]
+script = ExtResource("1_q0vfa")
+question_info = " A anomia está relacionada a: "
+options = Array[String](["Estabilidade", " Confusão social", " Natureza ", "Períodos de grande estabilidade econômica"])
+correct = " Confusão social"
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

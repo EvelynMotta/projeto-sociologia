@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://ddj1vchq88u83"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_c386v"]
+
+[resource]
+script = ExtResource("1_c386v")
+question_info = "A consolidação da Sociologia Compreensiva por Weber permitiu às ciências humanas:"
+options = Array[String](["Criar previsões matemáticas exatas para crises econômicas futuras", "Estudar fenômenos culturais, históricos e sociais focando na interpretação dos significados que os agentes dão ao mundo", "Desenvolver tecnologias de manipulação psicológica em massa", "Substituir a filosofia na definição do que é moralmente correto"])
+correct = "Estudar fenômenos culturais, históricos e sociais focando na interpretação dos significados que os agentes dão ao mundo"
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

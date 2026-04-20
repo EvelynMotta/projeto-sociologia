@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://c3dovduwxplc1"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_f1rqx"]
+
+[resource]
+script = ExtResource("1_f1rqx")
+question_info = "A ação racional com relação a fins caracteriza-se por ser:"
+options = Array[String](["Impulsionada por sentimentos momentâneos", "Planejada logicamente para atingir objetivos específicos", "Baseada estritamente em hábitos ancestrais", "Motivada por uma fé religiosa inabalável"])
+correct = "Planejada logicamente para atingir objetivos específicos"
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

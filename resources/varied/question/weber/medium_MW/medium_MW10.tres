@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://1bsii4oi0lbm"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_djcai"]
+
+[resource]
+script = ExtResource("1_djcai")
+question_info = "Para Weber, a burocracia é uma forma de organização baseada na:"
+options = Array[String](["Desorganização administrativa", "Racionalidade e na eficiência técnica", "Amizade pessoal entre os funcionários", "Escolha baseada no carisma"])
+correct = "Racionalidade e na eficiência técnica"
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

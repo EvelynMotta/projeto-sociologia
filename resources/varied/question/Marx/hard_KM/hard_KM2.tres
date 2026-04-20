@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://c5qmbnis72drr"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_fadhy"]
+
+[resource]
+script = ExtResource("1_fadhy")
+question_info = "Para Marx, a principal força motriz que impulsiona a mudança social é:"
+options = Array[String](["O consenso entre os grupos sociais em busca de estabilidade.", "O conflito de classes baseado na oposição de interesses materiais.", "O desenvolvimento natural das leis biológicas da espécie humana.", "O avanço ético e moral das civilizações ao longo do tempo."])
+correct = "O conflito de classes baseado na oposição de interesses materiais."
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

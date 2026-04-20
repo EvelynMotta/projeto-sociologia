@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://bcimydricexnw"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_oeen7"]
+
+[resource]
+script = ExtResource("1_oeen7")
+question_info = "A \"Sociologia Compreensiva\" de Weber tem como objetivo principal:"
+options = Array[String](["Descobrir leis naturais que regem a biologia humana", "Interpretar o sentido subjetivo das ações sociais", "Criticar a economia de mercado", "Organizar movimentos de revolução armada"])
+correct = "Interpretar o sentido subjetivo das ações sociais"
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

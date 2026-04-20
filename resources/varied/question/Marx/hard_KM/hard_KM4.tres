@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://dcmvio34h1mcs"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_p0c6e"]
+
+[resource]
+script = ExtResource("1_p0c6e")
+question_info = "A \"mais-valia\", elemento central para o funcionamento do capitalismo, representa:"
+options = Array[String](["O lucro justo obtido através da venda de mercadorias no mercado livre.", "O bônus pago ao operário por sua produtividade acima da média.", "O custo total das matérias-primas e equipamentos de produção.", "A parcela de valor produzida pelo trabalhador e apropriada pelo capitalista."])
+correct = "A parcela de valor produzida pelo trabalhador e apropriada pelo capitalista."
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

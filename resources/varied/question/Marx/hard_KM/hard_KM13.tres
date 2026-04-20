@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://djqu2v5af7o0h"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_17hxx"]
+
+[resource]
+script = ExtResource("1_17hxx")
+question_info = "Diferente da visão liberal, Marx entende o Estado como um:"
+options = Array[String](["Mediador imparcial que resolve conflitos entre cidadãos iguais.", "Comitê administrativo que gere os interesses comuns da classe dominante.", "Órgão autônomo que existe independentemente da economia.", "Espaço de representação igualitária de todos os grupos sociais."])
+correct = "Comitê administrativo que gere os interesses comuns da classe dominante."
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

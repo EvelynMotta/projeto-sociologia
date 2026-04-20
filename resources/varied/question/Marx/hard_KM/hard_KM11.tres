@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://1ksa1bk3a7y4"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_4biqb"]
+
+[resource]
+script = ExtResource("1_4biqb")
+question_info = "A exploração do trabalho ocorre, fundamentalmente, porque:"
+options = Array[String](["O salário pago corresponde a apenas uma parte do valor gerado pelo trabalho.", "O Estado cobra impostos excessivos sobre o consumo dos mais pobres.", "A oferta de empregos é sempre superior à quantidade de trabalhadores.", "O trabalhador não possui o conhecimento técnico para gerir a empresa."])
+correct = "O salário pago corresponde a apenas uma parte do valor gerado pelo trabalho."
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

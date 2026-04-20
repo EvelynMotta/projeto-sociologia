@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://dq081gflut81f"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_bx8nk"]
+
+[resource]
+script = ExtResource("1_bx8nk")
+question_info = "Em oposição à integração, Durkheim fala de regulação. O \"suicídio anômico\" ocorre por:"
+options = Array[String](["Excesso de regras sufocantes na vida cotidiana", "Falta de regulação moral, deixando os desejos do indivíduo sem freios ou limites", "Excesso de apego às tradições locais", "Fortalecimento súbito da cultura nacional"])
+correct = "Falta de regulação moral, deixando os desejos do indivíduo sem freios ou limites"
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://creynv1lixiq5"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_dymeo"]
+
+[resource]
+script = ExtResource("1_dymeo")
+question_info = "A \"integração social\", outro fator vital na teoria durkheimiana, avalia:"
+options = Array[String](["O poder aquisitivo médio da população urbana", "A intensidade e a vitalidade dos vínculos e crenças que unem o indivíduo ao grupo", "A participação do país em acordos políticos internacionais", "A compatibilidade genética de uma comunidade"])
+correct = "A intensidade e a vitalidade dos vínculos e crenças que unem o indivíduo ao grupo"
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

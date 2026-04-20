@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://cm02jl8eaccaq"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_1dyvt"]
+
+[resource]
+script = ExtResource("1_1dyvt")
+question_info = "Quais são os três tipos puros de dominação legítima propostos por Weber?"
+options = Array[String](["Democrática, Ditatorial e Monárquica", "Tradicional, Carismática e Racional-legal", "Econômica, Militar e Religiosa", "Natural, Biológica e Social"])
+correct = "Tradicional, Carismática e Racional-legal"
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

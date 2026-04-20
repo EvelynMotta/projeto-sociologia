@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://c6lxgkpafjgxp"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_s1ykl"]
+
+[resource]
+script = ExtResource("1_s1ykl")
+question_info = "A dominação \"tradicional\" tem como base de sua legitimidade:"
+options = Array[String](["A competência técnica comprovada por diplomas", "A crença na santidade dos costumes e na legitimidade daqueles que foram chamados ao poder pela tradição", "O código civil e a constituição do país", "As habilidades comunicativas e de oratória do governante em tempos de crise"])
+correct = "A crença na santidade dos costumes e na legitimidade daqueles que foram chamados ao poder pela tradição"
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

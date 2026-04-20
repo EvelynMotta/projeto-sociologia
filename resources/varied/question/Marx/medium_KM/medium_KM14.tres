@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://d2gyecbcgym7w"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_g83ds"]
+
+[resource]
+script = ExtResource("1_g83ds")
+question_info = "Segundo a análise de Karl Marx sobre a política, o Estado nas sociedades de classe tem como função principal:"
+options = Array[String](["Promover o bem-estar comum e a harmonia entre todos os cidadãos.", "Atuar como um instrumento de dominação e defesa dos interesses da classe dominante.", "Garantir que as tradições religiosas e culturais sejam preservadas acima da economia.", "Permanecer neutro e independente diante dos conflitos entre patrões e empregados."])
+correct = "Atuar como um instrumento de dominação e defesa dos interesses da classe dominante."
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://idadl2fta6dm"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_baia1"]
+
+[resource]
+script = ExtResource("1_baia1")
+question_info = "Marx estudava principalmente: "
+options = Array[String](["Indivíduos isolados ", " Economia e sociedade", "Animais ", "Física "])
+correct = " Economia e sociedade"
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://g0rr2ee6s88"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_n762n"]
+
+[resource]
+script = ExtResource("1_n762n")
+question_info = "No estudo sociológico do suicídio, \"regulação social\" refere-se à capacidade da sociedade de:"
+options = Array[String](["Proporcionar liberdade total e irrestrita aos cidadãos", "Controlar e colocar limites aos desejos e paixões dos indivíduos através de normas", "Distribuir a riqueza de forma igualitária", "Criar leis baseadas na aleatoriedade"])
+correct = "Controlar e colocar limites aos desejos e paixões dos indivíduos através de normas"
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

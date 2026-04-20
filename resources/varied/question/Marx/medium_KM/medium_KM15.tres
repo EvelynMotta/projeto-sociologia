@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://b5wbtnp7dnbo3"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_e303m"]
+
+[resource]
+script = ExtResource("1_e303m")
+question_info = "Segundo a análise de Karl Marx sobre as leis de movimento do capital, o modo de produção capitalista é marcado por uma contradição interna que tende a gerar:"
+options = Array[String](["Crises cíclicas de superprodução e instabilidade econômica.", "A distribuição equitativa de riquezas entre as classes sociais.", "A harmonia permanente entre os interesses de patrões e empregados.", "O fim da exploração do trabalho através do livre mercado."])
+correct = "Crises cíclicas de superprodução e instabilidade econômica."
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

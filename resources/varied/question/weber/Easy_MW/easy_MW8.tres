@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://q83ff0jllu6t"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_ju7vo"]
+
+[resource]
+script = ExtResource("1_ju7vo")
+question_info = "A ação social é aquela que:"
+options = Array[String]([" Tem significado para o indivíduo", " É automática ", "Acontece de maneira isolada", "Não tem sentido "])
+correct = " Tem significado para o indivíduo"
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

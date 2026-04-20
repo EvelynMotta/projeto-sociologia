@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://deb3yo30rbnch"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_0480l"]
+
+[resource]
+script = ExtResource("1_0480l")
+question_info = " O conceito de \"consciência coletiva\" refere-se a:"
+options = Array[String](["Uma inteligência superior que guia os governantes", "O conjunto de crenças e sentimentos comuns aos membros de uma sociedade", "O nível de escolaridade médio de um país", "Ideias científicas comprovadas em laboratório"])
+correct = "O conjunto de crenças e sentimentos comuns aos membros de uma sociedade"
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

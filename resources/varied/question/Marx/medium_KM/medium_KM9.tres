@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://3ijtbmeebaew"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_tdroh"]
+
+[resource]
+script = ExtResource("1_tdroh")
+question_info = "Infraestrutura refere-se a: "
+options = Array[String]([" Conjunto de crenças, valores e ideologias que orientam o comportamento social", "Base econômica formada pelos meios de produção e relações de trabalho", " Instituições políticas responsáveis pela organização do Estado", "Práticas culturais e religiosas que definem a identidade de um povo"])
+correct = "Base econômica formada pelos meios de produção e relações de trabalho"
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

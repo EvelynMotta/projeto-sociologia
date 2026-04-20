@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://cb4v8fk4r5uwi"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_u7jan"]
+
+[resource]
+script = ExtResource("1_u7jan")
+question_info = "O conceito weberiano de “desencantamento do mundo” refere-se ao processo em que:"
+options = Array[String](["As pessoas perdem a esperança na política moderna", "Explicações mágicas e religiosas são gradualmente substituídas pelo cálculo racional e pela ciência", "A arte perde seu valor nas sociedades capitalistas", "As tradições populares são preservadas pelo Estado"])
+correct = "Explicações mágicas e religiosas são gradualmente substituídas pelo cálculo racional e pela ciência"
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

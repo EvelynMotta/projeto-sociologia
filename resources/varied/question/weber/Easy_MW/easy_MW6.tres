@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://c7tls0hxqbhft"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_tt6mr"]
+
+[resource]
+script = ExtResource("1_tt6mr")
+question_info = " Para Weber, a sociologia deve estudar: "
+options = Array[String](["Os fenômenos sociais apenas por meio de leis gerais e objetivas", "O comportamento humano considerando o sentido atribuído pelos indivíduos", "As estruturas econômicas independentemente das ações individuais", "As instituições sociais sem considerar as motivações humanas"])
+correct = "O comportamento humano considerando o sentido atribuído pelos indivíduos"
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

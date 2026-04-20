@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://hqbi1yvmktxa"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_msigt"]
+
+[resource]
+script = ExtResource("1_msigt")
+question_info = "O conceito de \"Anomia\", muito utilizado por Durkheim, significa:"
+options = Array[String](["Um estado de ordem e justiça social", "Uma condição de ausência ou enfraquecimento das normas sociais", "Um sistema jurídico muito rígido", "A punição dada aos criminosos"])
+correct = "Uma condição de ausência ou enfraquecimento das normas sociais"
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

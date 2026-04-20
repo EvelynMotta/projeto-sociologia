@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://decypp57jf36w"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_6phfp"]
+
+[resource]
+script = ExtResource("1_6phfp")
+question_info = "A \"revolução proletária\" é descrita na teoria marxista como o momento em que:"
+options = Array[String](["O proletariado toma o poder para abolir a propriedade privada e a exploração.", "A classe trabalhadora negocia melhores condições dentro do capitalismo.", "O governo decide distribuir renda através de reformas assistencialistas.", "As máquinas passam a ser propriedade exclusiva de intelectuais e técnicos."])
+correct = "O proletariado toma o poder para abolir a propriedade privada e a exploração."
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

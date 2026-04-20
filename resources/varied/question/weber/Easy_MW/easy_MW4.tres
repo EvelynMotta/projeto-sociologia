@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://cyyt2m2dqwoyi"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_faag4"]
+
+[resource]
+script = ExtResource("1_faag4")
+question_info = "Pelas suas análises sobre ação social, Max Weber contribuiu principalmente para qual área do conhecimento?"
+options = Array[String](["Economia", "Sociologia", "Ciência política", "Filosofia"])
+correct = "Sociologia"
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

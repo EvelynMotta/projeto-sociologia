@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://dhgrtmurrijb4"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_xgo4q"]
+
+[resource]
+script = ExtResource("1_xgo4q")
+question_info = "A dominação do tipo \"carismática\" se sustenta fundamentalmente na:"
+options = Array[String](["Aceitação da validade de leis escritas e estatutos", "Crença na santidade das tradições vigentes há muito tempo", "Devoção afetiva e confiança nas qualidades excepcionais ou heroicas de um líder", "Força puramente econômica do governante"])
+correct = "Devoção afetiva e confiança nas qualidades excepcionais ou heroicas de um líder"
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

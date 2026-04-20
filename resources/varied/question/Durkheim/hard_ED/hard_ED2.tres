@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://cdiv8q2sshdln"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_msedp"]
+
+[resource]
+script = ExtResource("1_msedp")
+question_info = "Em uma perspectiva macro-sociológica, a anomia está intrinsecamente ligada a:"
+options = Array[String](["Um estado de ordem moral perfeita", "Rupturas no tecido social que incapacitam as instituições de regular os desejos humanos", "Ambientes onde a solidariedade orgânica funciona plenamente", "Culturas antigas e inalteradas"])
+correct = "Rupturas no tecido social que incapacitam as instituições de regular os desejos humanos"
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

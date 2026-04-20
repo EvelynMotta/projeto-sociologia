@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://byga6ytukam8m"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_r6vk6"]
+
+[resource]
+script = ExtResource("1_r6vk6")
+question_info = "Durkheim viveu e produziu suas obras principalmente em qual período histórico?"
+options = Array[String](["Final do Século XIX e início do Século XX", "Fim da Idade Média", "Durante o Renascimento (Século XVI)", "Na Antiguidade Clássica"])
+correct = "Final do Século XIX e início do Século XX"
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

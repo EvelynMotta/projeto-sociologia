@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://dhfcpyk46nr82"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_otc3f"]
+
+[resource]
+script = ExtResource("1_otc3f")
+question_info = "O que são os \"fatos sociais\" descritos por Durkheim?"
+options = Array[String](["Fenômenos da natureza que afetam as cidades", "Escolhas puramente individuais e isoladas", "Maneiras de agir, pensar e sentir exteriores ao indivíduo", "Sentimentos e emoções passageiras"])
+correct = "Maneiras de agir, pensar e sentir exteriores ao indivíduo"
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

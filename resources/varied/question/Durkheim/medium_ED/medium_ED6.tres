@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://c851nc8mgd8l2"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_ixcxi"]
+
+[resource]
+script = ExtResource("1_ixcxi")
+question_info = "A principal diferença entre os dois tipos de solidariedade (mecânica e orgânica) baseia-se:"
+options = Array[String](["No nível de riqueza acumulada pelos governantes", "Na localização geográfica da sociedade", "No grau de complexidade social e na divisão do trabalho", "No clima e recursos naturais disponíveis"])
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

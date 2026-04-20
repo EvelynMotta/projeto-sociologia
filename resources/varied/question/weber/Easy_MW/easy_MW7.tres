@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://c27v1x51hhoh0"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_b5rsj"]
+
+[resource]
+script = ExtResource("1_b5rsj")
+question_info = "O conceito central de Weber é:"
+options = Array[String]([" Fato social ", "Ação social", "Consciência coletiva", "Anomia "])
+correct = "Ação social"
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://pgavkiaee8mx"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_edtle"]
+
+[resource]
+script = ExtResource("1_edtle")
+question_info = "O que significa a \"coerção social\"?"
+options = Array[String](["A garantia de total liberdade de expressão", "A pressão ou força que a sociedade exerce para que o indivíduo siga as normas", "A harmonia perfeita entre todas as classes", "A independência financeira de um grupo"])
+correct = "A pressão ou força que a sociedade exerce para que o indivíduo siga as normas"
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

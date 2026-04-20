@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://cd6nb0mylndwc"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_nwq0x"]
+
+[resource]
+script = ExtResource("1_nwq0x")
+question_info = "A principal contribuição da obra de Karl Marx para a sociologia foi:"
+options = Array[String](["A defesa da estabilidade das instituições tradicionais.", "A análise crítica do capitalismo e das desigualdades geradas pela produção.", "", ""])
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

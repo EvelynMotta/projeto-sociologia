@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://ds4l27h27ahyh"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_kkyhr"]
+
+[resource]
+script = ExtResource("1_kkyhr")
+question_info = "A perspectiva sociológica de Weber diverge fortemente da de Émile Durkheim, principalmente porque Weber:"
+options = Array[String](["Rejeita a ideia de que o social coaja o indivíduo de fora, partindo da ação individual para entender o todo", "Acredita que a sociedade é um organismo vivo independente dos indivíduos", "Foca exclusivamente na biologia evolutiva das populações", "Defende o uso da física para calcular comportamentos sociais"])
+correct = "Rejeita a ideia de que o social coaja o indivíduo de fora, partindo da ação individual para entender o todo"
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

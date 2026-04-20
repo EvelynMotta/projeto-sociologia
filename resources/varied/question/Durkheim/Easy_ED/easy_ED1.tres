@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://d0qlm4jlb77kk"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_lxtul"]
+
+[resource]
+script = ExtResource("1_lxtul")
+question_info = "Quem foi Émile Durkheim?"
+options = Array[String](["Um filósofo da Grécia Antiga", "Um dos principais sociólogos franceses", "Um economista focado no capitalismo alemão", "Um psicólogo comportamental americano"])
+correct = "Um dos principais sociólogos franceses"
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

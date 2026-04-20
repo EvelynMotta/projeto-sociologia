@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://bdgonq6slfyvc"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_ukcvp"]
+
+[resource]
+script = ExtResource("1_ukcvp")
+question_info = "Qual é a principal ambiguidade (o \"paradoxo\") que Weber enxerga na racionalidade moderna?"
+options = Array[String](["Ela gera riqueza extrema, mas elimina as leis jurídicas", "Ao buscar o máximo de eficiência, ela pode criar burocracias desumanas que limitam a própria liberdade do indivíduo", "Ela promove a ciência, mas aumenta a crença em magias populares", "Ela destrói o mercado financeiro através de regras antigas"])
+correct = "Ao buscar o máximo de eficiência, ela pode criar burocracias desumanas que limitam a própria liberdade do indivíduo"
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

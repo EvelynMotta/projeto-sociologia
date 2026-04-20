@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://bgxr8k7sehg5d"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_lyuy6"]
+
+[resource]
+script = ExtResource("1_lyuy6")
+question_info = " Ele defendia que a sociedade é: "
+options = Array[String](["Sem importância ", "Irrelevante", "Totalmente dependente das vontades individuais", "Superior e anterior ao indivíduo"])
+correct = "Superior e anterior ao indivíduo"
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

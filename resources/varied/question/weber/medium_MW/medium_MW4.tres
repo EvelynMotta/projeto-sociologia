@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://dtd84tmlh8dux"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_pl62l"]
+
+[resource]
+script = ExtResource("1_pl62l")
+question_info = "A ação racional com relação a valores ocorre quando o indivíduo atua:"
+options = Array[String](["Esperando um benefício material imediato", "Por puro impulso emocional", "Fiel às suas convicções e princípios éticos ou religiosos", "De forma aleatória, sem pensar no sentido"])
+correct = "Fiel às suas convicções e princípios éticos ou religiosos"
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"

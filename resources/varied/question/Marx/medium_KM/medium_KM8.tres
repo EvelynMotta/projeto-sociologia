@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://bsmg0t5xctyn1"]
+
+[ext_resource type="Script" uid="uid://d2h4w8kv2s6wc" path="res://scripts/resources/question.gd" id="1_y3swd"]
+
+[resource]
+script = ExtResource("1_y3swd")
+question_info = "Ideologia serve para: "
+options = Array[String](["Libertar sempre ", "Manter o poder da classe dominante ", " Criar ciência ", "Explicar natureza "])
+correct = "Manter o poder da classe dominante "
+metadata/_custom_type_script = "uid://d2h4w8kv2s6wc"
