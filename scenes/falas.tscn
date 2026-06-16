@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://b6ydjyct1vln6"]
+
+[ext_resource type="Script" uid="uid://chir6clejujq8" path="res://scripts/controllers/falas.gd" id="1_sa583"]
+
+[node name="Falas" type="Node2D" node_paths=PackedStringArray("_hud")]
+script = ExtResource("1_sa583")
+_hud = NodePath("HUD")
+
+[node name="HUD" type="CanvasLayer" parent="."]
