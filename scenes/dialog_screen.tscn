@@ -1,6 +1,7 @@
-[gd_scene load_steps=3 format=3 uid="uid://c3ims7uql1p4c"]
+[gd_scene load_steps=4 format=3 uid="uid://c3ims7uql1p4c"]
 
 [ext_resource type="Script" uid="uid://c7eejjqv6d5sm" path="res://scripts/controllers/dialog_screen.gd" id="1_b8bxe"]
+[ext_resource type="Texture2D" uid="uid://dhtxduol2pabl" path="res://assets/biblioteca interna.png" id="2_s4twl"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_1kbq1"]
 line_spacing = 0.0
@@ -21,14 +22,27 @@ offset_bottom = -33.0
 grow_horizontal = 2
 grow_vertical = 0
 script = ExtResource("1_b8bxe")
-_name = NodePath("Background/HBoxContainer/VContainer/Name")
+_name = NodePath("Background/HBoxContainer/Name")
 _dialog = NodePath("Background/HBoxContainer/VContainer/Dialog")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = -73.0
+offset_top = -376.0
+offset_right = 1079.0
+offset_bottom = 276.0
+texture = ExtResource("2_s4twl")
+expand_mode = 1
 
 [node name="Background" type="ColorRect" parent="."]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
+offset_left = -16.0
+offset_top = 29.0
+offset_right = 17.0
+offset_bottom = -66.0
 grow_horizontal = 2
 grow_vertical = 2
 color = Color(0.08235294, 0.08235294, 0.08235294, 0.77254903)
@@ -40,26 +54,27 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -490.0
-offset_top = -110.0
-offset_right = 490.0
-offset_bottom = 110.0
+offset_left = -503.0
+offset_top = -72.0
+offset_right = 506.0
+offset_bottom = 65.0
 grow_horizontal = 2
 grow_vertical = 2
 
 [node name="Border" type="ColorRect" parent="Background/HBoxContainer"]
 layout_mode = 2
 
-[node name="VContainer" type="VBoxContainer" parent="Background/HBoxContainer"]
+[node name="Name" type="Label" parent="Background/HBoxContainer"]
 layout_mode = 2
-size_flags_horizontal = 3
-
-[node name="Name" type="Label" parent="Background/HBoxContainer/VContainer"]
-layout_mode = 2
-text = "mulher"
+size_flags_horizontal = 4
+text = "Atendente"
 label_settings = SubResource("LabelSettings_1kbq1")
 horizontal_alignment = 2
 vertical_alignment = 1
+
+[node name="VContainer" type="VBoxContainer" parent="Background/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
 
 [node name="Dialog" type="RichTextLabel" parent="Background/HBoxContainer/VContainer"]
 layout_mode = 2
@@ -67,7 +82,9 @@ size_flags_vertical = 3
 theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.6117647)
 theme_override_constants/shadow_offset_x = 1
 theme_override_constants/shadow_offset_y = 1
-theme_override_font_sizes/normal_font_size = 35
+theme_override_font_sizes/normal_font_size = 25
+horizontal_alignment = 1
+vertical_alignment = 1
 
 [node name="Conti" type="Button" parent="."]
 layout_mode = 1

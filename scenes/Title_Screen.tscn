@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=3 uid="uid://dd2q2uh006chr"]
+[gd_scene load_steps=3 format=3 uid="uid://dd2q2uh006chr"]
 
 [ext_resource type="Script" uid="uid://dj8j48pt7eu6f" path="res://scripts/controllers/title_screen.gd" id="1_v6p8y"]
+[ext_resource type="Texture2D" uid="uid://cfb481dkut4ji" path="res://assets/biblioteca externa.png" id="2_i1cyk"]
 
 [node name="TitleScreen" type="Control"]
 layout_mode = 3
@@ -18,50 +19,39 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+texture = ExtResource("2_i1cyk")
+expand_mode = 1
 
-[node name="MarginContainer" type="MarginContainer" parent="."]
-layout_mode = 1
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 3.0
-offset_top = 2.0
-offset_right = 3.0
-offset_bottom = 2.0
-grow_horizontal = 2
-grow_vertical = 2
-theme_override_constants/margin_top = 20
-theme_override_constants/margin_bottom = 20
-
-[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer"]
-layout_mode = 2
-size_flags_horizontal = 4
-
-[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer/HBoxContainer"]
-layout_mode = 2
-size_flags_horizontal = 6
-
-[node name="GameLogo" type="TextureRect" parent="MarginContainer/HBoxContainer/VBoxContainer"]
-layout_mode = 2
-
-[node name="ButtonStart" type="Button" parent="MarginContainer/HBoxContainer/VBoxContainer"]
-layout_mode = 2
+[node name="ButtonStart" type="Button" parent="."]
+layout_mode = 0
+offset_left = 102.0
+offset_top = 195.0
+offset_right = 440.0
+offset_bottom = 269.0
 theme_override_font_sizes/font_size = 30
 text = "Iniciar Jogo
 "
 
-[node name="ButtonCredits" type="Button" parent="MarginContainer/HBoxContainer/VBoxContainer"]
-layout_mode = 2
+[node name="ButtonCredits" type="Button" parent="."]
+layout_mode = 0
+offset_left = 104.0
+offset_top = 289.0
+offset_right = 439.0
+offset_bottom = 368.0
 theme_override_font_sizes/font_size = 30
 text = "Créditos
 "
 
-[node name="ButtonQuitGame" type="Button" parent="MarginContainer/HBoxContainer/VBoxContainer"]
-layout_mode = 2
+[node name="ButtonQuitGame" type="Button" parent="."]
+layout_mode = 0
+offset_left = 105.0
+offset_top = 386.0
+offset_right = 441.0
+offset_bottom = 465.0
 theme_override_font_sizes/font_size = 30
 text = "Sair 
 "
 
-[connection signal="pressed" from="MarginContainer/HBoxContainer/VBoxContainer/ButtonStart" to="." method="_on_button_start_pressed"]
-[connection signal="pressed" from="MarginContainer/HBoxContainer/VBoxContainer/ButtonCredits" to="." method="_on_button_credits_pressed"]
-[connection signal="pressed" from="MarginContainer/HBoxContainer/VBoxContainer/ButtonQuitGame" to="." method="_on_button_quit_game_pressed"]
+[connection signal="pressed" from="ButtonStart" to="." method="_on_button_start_pressed"]
+[connection signal="pressed" from="ButtonCredits" to="." method="_on_button_credits_pressed"]
+[connection signal="pressed" from="ButtonQuitGame" to="." method="_on_button_quit_game_pressed"]
