@@ -5,16 +5,20 @@ const _DIALOG_SCREEN: PackedScene = preload("res://scenes/dialog_screen.tscn")
 
 var _dialog_data: Array = [
 	{
-		"dialog": "ola eu odeio programar", 
-		"title": "vitoria"
+		"dialog": "Bem-vindo a [nome da livraria]! Eu sou a Evelyn, mas pode me chamar de Elly e aquela é a Vitória.", 
+		"title": "Evelyn"
 	},
 	{
-		"dialog": "to com medo do futuro", 
-		"title": "eu"
+		"dialog": "Podemos te ajudar com algo?", 
+		"title": "Elly"
 	},
 	{
-		"dialog": "morro de medo dele, não sei o que fazer com a minha vida", 
-		"title": "vitoria"
+		"dialog": "Livros de sociologia? Para sua sorte acabaram de chegar alguns!", 
+		"title": "Elly"
+	},
+	{
+		"dialog": "Eles estão perto daquela bandeira vermelha. Bons estudos!", 
+		"title": "Elly"
 	}
 ]
 
