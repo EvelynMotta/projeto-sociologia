@@ -1,7 +1,12 @@
-[gd_scene load_steps=3 format=3 uid="uid://c8hue2rocs8hf"]
+[gd_scene load_steps=5 format=3 uid="uid://c8hue2rocs8hf"]
 
+[ext_resource type="FontFile" uid="uid://bnadtxqmohntq" path="res://assets/April.ttf" id="1_0ctdu"]
 [ext_resource type="Script" uid="uid://bescg3fbf6hcl" path="res://scripts/controllers/credits.gd" id="1_nm7lk"]
 [ext_resource type="Texture2D" uid="uid://cfb481dkut4ji" path="res://assets/biblioteca externa.png" id="2_2ckv8"]
+
+[sub_resource type="Theme" id="Theme_2fbfq"]
+default_font = ExtResource("1_0ctdu")
+default_font_size = 20
 
 [node name="Credits" type="Control"]
 layout_mode = 3
@@ -12,43 +17,17 @@ anchor_right = 0.5
 anchor_bottom = 0.5
 grow_horizontal = 2
 grow_vertical = 2
+theme = SubResource("Theme_2fbfq")
 script = ExtResource("1_nm7lk")
 
 [node name="TextureRect" type="TextureRect" parent="."]
 layout_mode = 0
-offset_left = -576.0
-offset_top = -319.0
-offset_right = 577.0
-offset_bottom = 323.0
+offset_left = -580.0
+offset_top = -323.0
+offset_right = 573.0
+offset_bottom = 319.0
 texture = ExtResource("2_2ckv8")
 expand_mode = 1
-
-[node name="TextureRect2" type="TextureRect" parent="."]
-layout_mode = 0
-offset_left = 5.0
-offset_top = 36.0
-offset_right = 40.0
-offset_bottom = 40.0
-
-[node name="Label" type="Label" parent="."]
-layout_mode = 1
-anchors_preset = 8
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-offset_left = -364.0
-offset_top = -79.0
-offset_right = 383.5
-offset_bottom = 66.0
-grow_horizontal = 2
-grow_vertical = 2
-theme_override_colors/font_color = Color(0, 0, 0, 1)
-theme_override_font_sizes/font_size = 30
-text = "CRIADOR(AS)
-Evelyn Aline Motta de Paula 
-Vitória Márcia Valério Rodrigues Ferreira"
-horizontal_alignment = 1
 
 [node name="ButtonBack" type="Button" parent="."]
 layout_mode = 0
@@ -58,5 +37,71 @@ offset_right = -446.0
 offset_bottom = -252.0
 theme_override_font_sizes/font_size = 30
 text = "Voltar"
+
+[node name="ScrollContainer" type="ScrollContainer" parent="."]
+layout_mode = 0
+offset_left = -433.0
+offset_top = -270.0
+offset_right = 543.0
+offset_bottom = 287.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="ScrollContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="ScrollContainer/VBoxContainer"]
+layout_mode = 2
+text = "Créditos
+
+Equipe de Desenvolvimento
+
+Direção / Game Design
+Evelyn Aline Motta de Paula
+Vitória Márcia Valério Rodrigues Ferreira
+
+Programação / Código:
+Evelyn Aline Motta de Paula
+Vitória Márcia Valério Rodrigues Ferreira
+
+Arte & Ilustração:
+Evelyn Aline Motta de Paula
+
+UI/UX Design:
+Evelyn Aline Motta de Paula
+Vitória Márcia Valério Rodrigues Ferreira
+
+Roteiro / Pergunta & Resposta:
+Vitória Márcia Valério Rodrigues Ferreira
+
+Ferramentas e Tecnologias
+
+Game Engine:
+Godot Engine v4.5
+
+Software de Arte:
+Infinite Painter
+
+     Linguagem de Programação:
+GDScript
+
+Recursos de Terceiros
+
+Fontes (Tipografia):
+Nome da fonte e o tipo de licença (ex: Google Fonts / SIL Open Font License).
+
+Agradecimentos e Informações Finais
+
+Agradecimentos Especiais:
+Thiago de Jesus Esteves;
+Luane da Costa Pinto Lins Fragoso;
+
+Contato / Redes Sociais:
+Link para o GitHub do projeto
+https://github.com/EvelynMotta <- meu git 
+https://github.com/vitoriamvrferreira <- git da vitória
+https://www.instagram.com/thiagojesteves?igsi=cXprbjA5YjR0MXI1 <- insta esteves
+
+Copyright e Ano: Exemplo:
+© 2025 CEFET/RJ uned Nova Iguaçu. Todos os direitos reservados. "
+horizontal_alignment = 1
 
 [connection signal="pressed" from="ButtonBack" to="." method="_on_button_back_pressed"]
