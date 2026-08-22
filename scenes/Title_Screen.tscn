@@ -1,7 +1,12 @@
-[gd_scene load_steps=3 format=3 uid="uid://dd2q2uh006chr"]
+[gd_scene load_steps=5 format=3 uid="uid://dd2q2uh006chr"]
 
+[ext_resource type="FontFile" uid="uid://bnadtxqmohntq" path="res://assets/April.ttf" id="1_gul1b"]
 [ext_resource type="Script" uid="uid://dj8j48pt7eu6f" path="res://scripts/controllers/title_screen.gd" id="1_v6p8y"]
 [ext_resource type="Texture2D" uid="uid://cfb481dkut4ji" path="res://assets/biblioteca externa.png" id="2_i1cyk"]
+
+[sub_resource type="Theme" id="Theme_epng2"]
+default_font = ExtResource("1_gul1b")
+default_font_size = 30
 
 [node name="TitleScreen" type="Control"]
 layout_mode = 3
@@ -10,6 +15,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+theme = SubResource("Theme_epng2")
 script = ExtResource("1_v6p8y")
 
 [node name="imagemFundo" type="TextureRect" parent="."]

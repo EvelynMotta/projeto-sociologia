@@ -1,9 +1,14 @@
-[gd_scene load_steps=5 format=3 uid="uid://d1fya8nutm8ep"]
+[gd_scene load_steps=7 format=3 uid="uid://d1fya8nutm8ep"]
 
 [ext_resource type="Texture2D" uid="uid://dkh0t2t0r6kc7" path="res://assets/Emile Durkheim.jpg" id="1_e3n4w"]
 [ext_resource type="Script" uid="uid://cnl7e6vo4ih0l" path="res://scripts/controllers/menu_principal.gd" id="1_l7rc0"]
+[ext_resource type="FontFile" uid="uid://bnadtxqmohntq" path="res://assets/April.ttf" id="1_yehq0"]
 [ext_resource type="Texture2D" uid="uid://dswujklmkyx0a" path="res://assets/Karl-Marx.jpg" id="3_vh4n2"]
 [ext_resource type="Texture2D" uid="uid://bg1unic5fn84d" path="res://assets/MaxWeber.jpg" id="3_yehq0"]
+
+[sub_resource type="Theme" id="Theme_vh4n2"]
+default_font = ExtResource("1_yehq0")
+default_font_size = 20
 
 [node name="MenuPrincipal" type="Control"]
 layout_mode = 3
@@ -16,13 +21,14 @@ offset_right = -4.0
 offset_bottom = -2.0
 grow_horizontal = 2
 grow_vertical = 2
+theme = SubResource("Theme_vh4n2")
 script = ExtResource("1_l7rc0")
 
 [node name="ButtonWeber" type="TextureButton" parent="."]
 layout_mode = 0
 offset_left = 116.0
 offset_top = 168.0
-offset_right = 352.0
+offset_right = 335.0
 offset_bottom = 468.0
 texture_normal = ExtResource("3_yehq0")
 ignore_texture_size = true

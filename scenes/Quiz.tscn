@@ -1,8 +1,16 @@
-[gd_scene load_steps=4 format=3 uid="uid://dvgkys5gspoim"]
+[gd_scene load_steps=7 format=3 uid="uid://dvgkys5gspoim"]
 
 [ext_resource type="Script" uid="uid://dpxm3hoebgqi2" path="res://scripts/controllers/game_controller.gd" id="1_lkoqw"]
 [ext_resource type="Resource" uid="uid://b4s8jgqaucumk" path="res://resources/varied/themes/theme_Durkheim.tres" id="2_io4kd"]
+[ext_resource type="FontFile" uid="uid://bnadtxqmohntq" path="res://assets/April.ttf" id="3_0k03f"]
 [ext_resource type="PackedScene" uid="uid://pxu4vuurq1hc" path="res://scenes/pause_menu.tscn" id="3_io4kd"]
+
+[sub_resource type="Theme" id="Theme_yksy1"]
+default_font = ExtResource("3_0k03f")
+default_font_size = 25
+
+[sub_resource type="Theme" id="Theme_0k03f"]
+default_font = ExtResource("3_0k03f")
 
 [node name="Main" type="CanvasLayer"]
 script = ExtResource("1_lkoqw")
@@ -17,6 +25,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+theme = SubResource("Theme_yksy1")
 
 [node name="QuestionInfo" type="VBoxContainer" parent="Content"]
 layout_mode = 0
@@ -133,6 +142,7 @@ offset_left = 967.0
 offset_top = 23.0
 offset_right = 1106.0
 offset_bottom = 86.0
+theme = SubResource("Theme_0k03f")
 theme_override_font_sizes/font_size = 30
 text = "pause "
 

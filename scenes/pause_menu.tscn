@@ -1,7 +1,12 @@
-[gd_scene load_steps=7 format=3 uid="uid://pxu4vuurq1hc"]
+[gd_scene load_steps=9 format=3 uid="uid://pxu4vuurq1hc"]
 
+[ext_resource type="FontFile" uid="uid://bnadtxqmohntq" path="res://assets/April.ttf" id="1_kukqi"]
 [ext_resource type="Script" uid="uid://bckckintyyqg4" path="res://scripts/controllers/pause_menu.gd" id="1_myx47"]
 [ext_resource type="Shader" uid="uid://dl82smp3npr1h" path="res://novo_sombreador.gdshader" id="2_kukqi"]
+
+[sub_resource type="Theme" id="Theme_5d2l8"]
+default_font = ExtResource("1_kukqi")
+default_font_size = 25
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_nwcfo"]
 shader = ExtResource("2_kukqi")
@@ -80,6 +85,7 @@ offset_right = 3.0
 offset_bottom = -4.0
 grow_horizontal = 2
 grow_vertical = 2
+theme = SubResource("Theme_5d2l8")
 script = ExtResource("1_myx47")
 
 [node name="ColorRect" type="ColorRect" parent="."]
