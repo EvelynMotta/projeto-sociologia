@@ -44,6 +44,18 @@ offset_bottom = 655.0
 texture = ExtResource("5_j36u3")
 expand_mode = 1
 
+[node name="Timer" type="Timer" parent="Content"]
+wait_time = 15.0
+one_shot = true
+
+[node name="ProgressBar" type="ProgressBar" parent="Content"]
+layout_mode = 0
+offset_left = 228.0
+offset_top = 46.0
+offset_right = 937.0
+offset_bottom = 79.0
+show_percentage = false
+
 [node name="QuestionInfo" type="VBoxContainer" parent="Content"]
 layout_mode = 0
 offset_left = 90.0
@@ -99,7 +111,6 @@ size_flags_vertical = 3
 theme_override_font_sizes/font_size = 20
 
 [node name="GameOver" type="ColorRect" parent="Content"]
-visible = false
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -130,41 +141,61 @@ expand_mode = 1
 
 [node name="Title" type="Label" parent="Content/GameOver"]
 layout_mode = 0
-offset_left = 428.0
-offset_top = 111.0
-offset_right = 719.0
-offset_bottom = 217.0
+offset_left = 483.0
+offset_top = 42.0
+offset_right = 774.0
+offset_bottom = 148.0
 theme_override_colors/font_color = Color(0.15, 0.15, 0.15, 1)
 theme_override_font_sizes/font_size = 40
-text = "Você Acertou: "
+text = "Resultado:"
 
-[node name="Score" type="Label" parent="Content/GameOver"]
+[node name="Correct" type="Label" parent="Content/GameOver"]
 layout_mode = 0
-offset_left = 332.0
-offset_top = 173.0
-offset_right = 808.0
-offset_bottom = 279.0
+offset_left = -10.0
+offset_top = 116.0
+offset_right = 315.0
+offset_bottom = 201.0
 theme_override_colors/font_color = Color(0.14901961, 0.14901961, 0.14901961, 1)
-theme_override_font_sizes/font_size = 50
-text = "0/0"
+theme_override_font_sizes/font_size = 35
+text = "Acertos: 0/0"
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Wrong" type="Label" parent="Content/GameOver"]
+layout_mode = 0
+offset_left = 47.0
+offset_top = 193.0
+offset_right = 297.0
+offset_bottom = 248.0
+theme_override_colors/font_color = Color(0.15, 0.15, 0.15, 1)
+theme_override_font_sizes/font_size = 35
+text = "Erros: 0/0"
+
+[node name="Unanswered" type="Label" parent="Content/GameOver"]
+layout_mode = 0
+offset_left = 46.0
+offset_top = 235.0
+offset_right = 551.0
+offset_bottom = 283.0
+theme_override_colors/font_color = Color(0.15, 0.15, 0.15, 1)
+theme_override_font_sizes/font_size = 35
+text = "Não respondidas a tempo: 0/0"
+
 [node name="ButtonRestart" type="Button" parent="Content/GameOver"]
 layout_mode = 0
-offset_left = 359.0
-offset_top = 287.0
-offset_right = 797.0
-offset_bottom = 389.0
+offset_left = 40.0
+offset_top = 360.0
+offset_right = 375.0
+offset_bottom = 437.0
 theme_override_font_sizes/font_size = 30
 text = "Jogar Novamente"
 
 [node name="ButtonmMNP" type="Button" parent="Content/GameOver"]
 layout_mode = 0
-offset_left = 360.0
-offset_top = 402.0
-offset_right = 799.0
-offset_bottom = 507.0
+offset_left = 39.0
+offset_top = 450.0
+offset_right = 374.0
+offset_bottom = 528.0
 theme_override_font_sizes/font_size = 30
 text = "Menu Principal"
 
@@ -182,6 +213,7 @@ theme = SubResource("Theme_0k03f")
 theme_override_font_sizes/font_size = 30
 text = "pause "
 
+[connection signal="timeout" from="Content/Timer" to="." method="_on_timer_timeout"]
 [connection signal="pressed" from="Content/GameOver/ButtonRestart" to="." method="_on_button_pressed"]
 [connection signal="pressed" from="Content/GameOver/ButtonmMNP" to="." method="_on_buttonm_mnp_pressed"]
 [connection signal="pressed" from="CanvasLayer/ButtonPause" to="CanvasLayer/PauseMenu" method="_on_button_pause_pressed"]
