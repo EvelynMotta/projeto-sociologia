@@ -1,8 +1,9 @@
-[gd_scene load_steps=5 format=3 uid="uid://c8hue2rocs8hf"]
+[gd_scene load_steps=6 format=3 uid="uid://c8hue2rocs8hf"]
 
 [ext_resource type="FontFile" uid="uid://bnadtxqmohntq" path="res://assets/April.ttf" id="1_0ctdu"]
 [ext_resource type="Script" uid="uid://bescg3fbf6hcl" path="res://scripts/controllers/credits.gd" id="1_nm7lk"]
 [ext_resource type="Texture2D" uid="uid://cfb481dkut4ji" path="res://assets/biblioteca externa.png" id="2_2ckv8"]
+[ext_resource type="Texture2D" uid="uid://dfs18polq82w4" path="res://assets/neblina.png" id="4_2fbfq"]
 
 [sub_resource type="Theme" id="Theme_2fbfq"]
 default_font = ExtResource("1_0ctdu")
@@ -25,8 +26,17 @@ layout_mode = 0
 offset_left = -580.0
 offset_top = -323.0
 offset_right = 573.0
-offset_bottom = 319.0
+offset_bottom = 324.0
 texture = ExtResource("2_2ckv8")
+expand_mode = 1
+
+[node name="TextureRect2" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = -580.0
+offset_top = -323.0
+offset_right = 573.0
+offset_bottom = 319.0
+texture = ExtResource("4_2fbfq")
 expand_mode = 1
 
 [node name="ButtonBack" type="Button" parent="."]
@@ -50,6 +60,7 @@ layout_mode = 2
 
 [node name="Label" type="Label" parent="ScrollContainer/VBoxContainer"]
 layout_mode = 2
+theme_override_colors/font_color = Color(0.15, 0.15, 0.15, 1)
 text = "Créditos
 
 Equipe de Desenvolvimento

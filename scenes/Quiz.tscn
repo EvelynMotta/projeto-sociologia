@@ -1,9 +1,11 @@
-[gd_scene load_steps=7 format=3 uid="uid://dvgkys5gspoim"]
+[gd_scene load_steps=9 format=3 uid="uid://dvgkys5gspoim"]
 
 [ext_resource type="Script" uid="uid://dpxm3hoebgqi2" path="res://scripts/controllers/game_controller.gd" id="1_lkoqw"]
 [ext_resource type="Resource" uid="uid://b4s8jgqaucumk" path="res://resources/varied/themes/theme_Durkheim.tres" id="2_io4kd"]
 [ext_resource type="FontFile" uid="uid://bnadtxqmohntq" path="res://assets/April.ttf" id="3_0k03f"]
 [ext_resource type="PackedScene" uid="uid://pxu4vuurq1hc" path="res://scenes/pause_menu.tscn" id="3_io4kd"]
+[ext_resource type="Texture2D" uid="uid://dgy8c36ikytl" path="res://assets/prateleira.png" id="4_p6167"]
+[ext_resource type="Texture2D" uid="uid://dfs18polq82w4" path="res://assets/neblina.png" id="5_j36u3"]
 
 [sub_resource type="Theme" id="Theme_yksy1"]
 default_font = ExtResource("3_0k03f")
@@ -27,6 +29,21 @@ grow_horizontal = 2
 grow_vertical = 2
 theme = SubResource("Theme_yksy1")
 
+[node name="TextureRect" type="TextureRect" parent="Content"]
+layout_mode = 0
+offset_left = 3.0
+offset_right = 1151.0
+offset_bottom = 651.0
+texture = ExtResource("4_p6167")
+expand_mode = 1
+
+[node name="TextureRect2" type="TextureRect" parent="Content"]
+layout_mode = 0
+offset_right = 1155.0
+offset_bottom = 655.0
+texture = ExtResource("5_j36u3")
+expand_mode = 1
+
 [node name="QuestionInfo" type="VBoxContainer" parent="Content"]
 layout_mode = 0
 offset_left = 90.0
@@ -39,6 +56,7 @@ pivot_offset = Vector2(1086, 314)
 custom_minimum_size = Vector2(0, 70)
 layout_mode = 2
 size_flags_vertical = 6
+theme_override_colors/font_color = Color(0.15, 0.15, 0.15, 1)
 theme_override_font_sizes/font_size = 40
 text = "Pergunta"
 horizontal_alignment = 1
@@ -94,12 +112,29 @@ grow_horizontal = 2
 grow_vertical = 2
 color = Color(0.3519, 0.36, 0.3276, 1)
 
+[node name="TextureRect" type="TextureRect" parent="Content/GameOver"]
+layout_mode = 0
+offset_top = -4.0
+offset_right = 1149.0
+offset_bottom = 644.0
+texture = ExtResource("4_p6167")
+expand_mode = 1
+
+[node name="TextureRect2" type="TextureRect" parent="Content/GameOver"]
+layout_mode = 0
+offset_top = -8.0
+offset_right = 1149.0
+offset_bottom = 644.0
+texture = ExtResource("5_j36u3")
+expand_mode = 1
+
 [node name="Title" type="Label" parent="Content/GameOver"]
 layout_mode = 0
 offset_left = 428.0
 offset_top = 111.0
 offset_right = 719.0
 offset_bottom = 217.0
+theme_override_colors/font_color = Color(0.15, 0.15, 0.15, 1)
 theme_override_font_sizes/font_size = 40
 text = "Você Acertou: "
 
@@ -109,6 +144,7 @@ offset_left = 332.0
 offset_top = 173.0
 offset_right = 808.0
 offset_bottom = 279.0
+theme_override_colors/font_color = Color(0.14901961, 0.14901961, 0.14901961, 1)
 theme_override_font_sizes/font_size = 50
 text = "0/0"
 horizontal_alignment = 1
