@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="ProjetoSociologia (nova versao)"
-run/main_scene="uid://dvgkys5gspoim"
+run/main_scene="uid://dd2q2uh006chr"
 config/features=PackedStringArray("4.5", "Mobile")
 config/icon="res://icon.svg"
 
